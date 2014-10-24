@@ -1,0 +1,36 @@
+{
+  "name": "fossa",
+  "version": "0.0.1",
+  "description": "A LiveScript/JavaScript game engine built on top of THREE.js",
+  "main": "example/server.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brebory/fossa"
+  },
+  "keywords": [
+    "game",
+    "engine",
+    "threejs"
+  ],
+  "author": "Brendon Roberto (brendon@brendonroberto.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brebory/fossa/issues"
+  },
+  "devDependencies": {
+    "gulp": "~3.8.9",
+    "typescript": "~1.1.0-1",
+    "browserify": "~6.1.0",
+    "tslint": "~0.4.14",
+    "gulp-tslint": "~1.3.1",
+    "gulp-typescript": "~2.1.0",
+    "gulp-browserify": "~0.5.0"
+  },
+  "dependencies": {
+    "cannon": "~0.6.0",
+    "three": "~0.68.0"
+  }
+}
